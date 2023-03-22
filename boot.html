@@ -24,7 +24,12 @@
         <div class="divider"></div>
         <div>
             <h1>1. Afbeeldingen</h1>
-            <p>De boot heeft een motor. Als de motor uitgezet wordt, is de boot nog steeds bruikbaar met peddels.</p>
+            <h2>Afbeeldingen zijn in veel gevallen essentieel voor het gebruiken van het web. Denk hierbij aan teksten die refereren naar afbeeldingen.</h2>
+            <p>Ik wilde gaan kijken naar de website 'unsplash.com', een website met een grote collectie aan gratis foto's, om te zien hoe zij foto's weergeven als deze er niet zijn. Hieronder het resultaat:</p>
+            <img src="./images/unsplash.png">
+            <p>Unsplash geeft visueel beperkten alsnog toegang tot de inhoud van de foto door een alt tekst toe te voegen met daarin informatie over de foto.</p>
+            <p>Ik was ook benieuwd naar of sites als 'developer.mozilla.org' blokken met code zouden weergeven. Zoals ik had verwacht bleef deze er wel gewoon staan, aangezien het niet een 'img' element is.</p>
+            <img src="./images/mozilla.png">
         </div>
         <div>
             <h1>2. Custom fonts</h1>
@@ -68,8 +73,40 @@
         </div>
         <div>
             <h1>6. Javascript</h1>
-            <h2>Ik wilde erachter komen of websites nog werken als je de JavaScript uitzet.</h2>
-            <p>De boot heeft een motor. Als de motor uitgezet wordt, is de boot nog steeds bruikbaar met peddels.</p>
+            <h2>JavaScript is niet altijd beschikbaar en het is niet de schuld van de gebruiker</h2>
+            <p>Ongeveer 1% van alle gebruikers van het web zetten JavaScript bewust uit. Veel developers denken dat dit betekent dat ze deze mensen buiten kunnen sluiten. Ze vergeten dat 1% nog steeds een groot getal is, vooral relatief gezien. Voor een site als bijvoorbeeld BuzzFeed is 1%  13 miljoen requests per maand.</p>
+            <h2>Een paar redenen waarom gebruikers een website ervaren alsof er geen JavaScript aanwezig is:</h2>
+            <div class="h3-met-tekst">
+                <h3>1. De browser herkent de JavaScript code niet</h3>
+                <p>Als je JavaScript-bestand methoden of eigenschappen bevat die de browser niet begrijpt, wordt het script niet uitgevoerd.</p>  
+            </div>
+            <div class="h3-met-tekst">
+                <h3>2. Browserextensies kunnen JavaScript breken</h3>
+                <p>Browser-plug-ins gebruiken JavaScript om webpagina's te wijzigen en functionaliteit toe te voegen. Maar dit loopt het risico te breken, afhankelijk van hoe goed het JavaScript van de site en het JavaScript van de plug-in is geschreven.</p>  
+            </div>
+            <div class="h3-met-tekst">
+                <h3>3. Sommige browsers schakelen JavaScript uit bij trage verbindingen</h3>
+                <p>Chrome op Android schakelt JavaScript bijvoorbeeld automatisch uit bij langzame verbindingen om de laadtijden van pagina's te versnellen.</p>  
+            </div>
+            <div class="h3-met-tekst">
+                <h3>4. JavaScript kan mogelijk niet worden gedownload</h3>
+                <p>Zoals bij elke HTTP-aanroep, kan het verzoek om het JavaScript van je site niet worden geladen. Dit kan gebeuren in een trein omdat de verbinding stopt voordat het script is gedownload.</p>  
+            </div>
+            <div class="h3-met-tekst">
+                <h3>5. Bedrijfsfirewalls en mobiele operators blokkeren JavaScript</h3>
+                <p>Sky Broadband heeft bijvoorbeeld ooit per ongeluk JQuery geblokkeerd, waardoor veel sites kapot gingen.</p>  
+            </div>
+            <div class="h3-met-tekst">
+                <h3>6. Sommige browsers voeren geen JavaScript uit</h3>
+                <p>Sky Broadband heeft bijvoorbeeld ooit per ongeluk JQuery geblokkeerd, waardoor veel sites kapot gingen.</p>  
+            </div>
+            <h2>Mijn onderzoek</h2>
+            <p>Hoe meer je site afhankelijk is van JavaScript, hoe slechter de ervaring waarschijnlijk zal zijn wanneer JavaScript niet beschikbaar is. Als je te maken hebt met tekst, afbeeldingen, video's en formulieren, geef de HTML dan weer op de server. Geen JavaScript nodig, dit is robuuster en houdt meer rekening met performance.</p>
+            <h3>Om uit te testen hoe erg missende JavaScript een site beperkt, heb ik de JavaScript uitgezet op de site van bol.com.</h3>
+            <p>Vergeleken met veel andere sites houdt bol.com erg goed rekening met mensen die geen JavaScript (kunnen) gebruiken. Bijna de hele site werkt, inclusief het bestellen van spullen en het beheren van je account, wat tegen mijn verwachting in gaat.</p>
+            <p>Dingen die niet werken is wanneer je het menu openklapt, en in dit menu een sub-menu openklapt. Ook werkt de chatbot niet. Sommige foto's laden ook niet in.</p>
+            <img src="./images/bol.png">
+            <img src="./images/bol2.png">
         </div>
         <div>
             <h1>7. Cookies en localStorage</h1>
@@ -84,8 +121,9 @@
         <div class="container">
             <h1>Bronnen</h1>
             <div class="bronnen">
-                <div>
+                <section>
                     <p>Afbeeldingen</p>
+<<<<<<< Updated upstream
                     <a href="https://www.audioeye.com/post/8-ways-to-design-a-color-blind-friendly-website/#:~:text=Using%20labels%20on%20your%20site,clear%20things%20up%20even%20further.">8 Ways to Design a Color Blind Friendly Website</a>
                 </div>
                 <div>
@@ -116,6 +154,62 @@
                     <p>Afbeeldingen</p>
                     <a href="#">Bron 1</a>
                 </div>
+=======
+                    <div class="bronnen-links">
+                        <a href="https://adamsilver.io/blog/javascript-isnt-always-available-and-its-not-the-users-fault/">Adam Silver</a>
+                        <a href="https://www.bol.com/nl/nl/">Bol.com</a>
+                    </div>
+                </section>
+                <section>
+                    <p>Custom fonts</p>
+                    <div class="bronnen-links">
+                        <a href="https://adamsilver.io/blog/javascript-isnt-always-available-and-its-not-the-users-fault/">Adam Silver</a>
+                        <a href="https://www.bol.com/nl/nl/">Bol.com</a>
+                    </div>
+                </section>
+                <section>
+                    <p>Kleur uitzetten</p>
+                    <div class="bronnen-links">
+                        <a href="https://adamsilver.io/blog/javascript-isnt-always-available-and-its-not-the-users-fault/">Adam Silver</a>
+                        <a href="https://www.bol.com/nl/nl/">Bol.com</a>
+                    </div>
+                </section>
+                <section>
+                    <p>Muis/Trackpad</p>
+                    <div class="bronnen-links">
+                        <a href="https://adamsilver.io/blog/javascript-isnt-always-available-and-its-not-the-users-fault/">Adam Silver</a>
+                        <a href="https://www.bol.com/nl/nl/">Bol.com</a>
+                    </div>
+                </section>
+                <section>
+                    <p>Breedband internet</p>
+                    <div class="bronnen-links">
+                        <a href="https://adamsilver.io/blog/javascript-isnt-always-available-and-its-not-the-users-fault/">Adam Silver</a>
+                        <a href="https://www.bol.com/nl/nl/">Bol.com</a>
+                    </div>
+                </section>
+                <section>
+                    <p>Javascript</p>
+                    <div class="bronnen-links">
+                        <a href="https://adamsilver.io/blog/javascript-isnt-always-available-and-its-not-the-users-fault/">Adam Silver</a>
+                        <a href="https://www.bol.com/nl/nl/">Bol.com</a>
+                    </div>
+                </section>
+                <section>
+                    <p>Cookies en localStorage</p>
+                    <div class="bronnen-links">
+                        <a href="https://adamsilver.io/blog/javascript-isnt-always-available-and-its-not-the-users-fault/">Adam Silver</a>
+                        <a href="https://www.bol.com/nl/nl/">Bol.com</a>
+                    </div>
+                </section>
+                <section>
+                    <p>Content blockers en ad blockers</p>
+                    <div class="bronnen-links">
+                        <a href="https://adamsilver.io/blog/javascript-isnt-always-available-and-its-not-the-users-fault/">Adam Silver</a>
+                        <a href="https://www.bol.com/nl/nl/">Bol.com</a>
+                    </div>
+                </section>
+>>>>>>> Stashed changes
             </div>
         </div>
     </footer>

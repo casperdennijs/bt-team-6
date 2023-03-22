@@ -53,6 +53,10 @@ main div {
     width: 50vw;
 }
 
+main .h3-met-tekst {
+    padding-top: 2em;
+}
+
 main div h1 {
     color: #264653;
     font-family: 'Arvo', serif;
@@ -66,6 +70,15 @@ main div h2 {
     font-weight: 400;
     font-size: 2em;
     letter-spacing: -1px;
+    padding: 2em 0 0.5em 0;
+}
+
+main div h3 {
+    color: #264653;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    letter-spacing: -1px;
     padding: 1em 0 0.5em 0;
 }
 
@@ -73,7 +86,7 @@ main div p {
     color: #264653;
     padding-top: 0.4em;
     font-family: 'Public Sans', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.4em;
     letter-spacing: -1px;
     line-height: 1.5;
 }
@@ -91,6 +104,11 @@ main div ol p{
     color: #264653;
     letter-spacing: -1px;
     line-height: 1.5;
+}
+
+main div img {
+    width: 50vw;
+    padding-top: 2em;
 }
 
 footer {
@@ -113,18 +131,22 @@ footer .container h1 {
     letter-spacing: -1px;
 }
 
-footer .container div:not(:nth-of-type(4)) {
-    padding-bottom: 1em;
+footer .container .bronnen section {
+    padding-bottom: 2em;
 }
 
-footer .container div p {
+footer .container .bronnen section p {
     color: #ffffff;
     font-family: 'Arvo', serif;
     font-size: 2em;
     letter-spacing: -1px;
 }
 
-footer .container div a {
+footer .container .bronnen section .bronnen-links {
+    display: grid;
+}
+
+footer .container .bronnen section .bronnen-links a {
     text-decoration: none;
     color: #ffffffc5;
     padding-top: 0.4em;
