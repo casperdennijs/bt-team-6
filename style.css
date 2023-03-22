@@ -32,8 +32,20 @@ header div h1 {
 header div p {
     color: #264653;
     margin: auto;
-    padding-top: 0.4em;
+    padding: 0.6em 0 1.6em 0;
     width: 32em;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.6em;
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
+
+header div a {
+    border-radius: 20em;
+    background-color: white;
+    color: #264653;
+    padding: 0.8em 1.2em;
+    margin-top: 2em;
     font-family: 'Public Sans', sans-serif;
     font-size: 1.6em;
     letter-spacing: -1px;
