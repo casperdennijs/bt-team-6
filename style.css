@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    background-color: #EDFAFF;
+}
+
+header div {
+    text-align: center;
+    margin: auto;
+    padding-top: 3em;
+    width: 95vw;
+}
+
+header div h1 {
+    color: #264653;
+    font-family: 'Arvo', serif;
+    font-size: 4em;
+    letter-spacing: -1px;
+}
+
+header div p {
+    color: #264653;
+    margin: auto;
+    padding-top: 0.4em;
+    width: 32em;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.6em;
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
+
+main {
+}
+
+main div:last-child {
+    padding-bottom: 6em;
+}
+
+main div {
+    padding-top: 6em;
+    margin: auto;
+    width: 50vw;
+}
+
+main div h1 {
+    color: #264653;
+    font-family: 'Arvo', serif;
+    font-size: 3em;
+    letter-spacing: -1px;
+}
+
+main div h2 {
+    color: #264653;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: -1px;
+    padding: 1em 0 0.5em 0;
+}
+
+main div p {
+    color: #264653;
+    padding-top: 0.4em;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.6em;
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #264653;
+    padding: 6em 0;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 4em;
+    margin: auto;
+    width: 50vw;
+}
+
+footer .container h1 {
+    color: #ffffff;
+    font-family: 'Arvo', serif;
+    font-size: 3em;
+    letter-spacing: -1px;
+}
+
+footer .container div:not(:nth-of-type(4)) {
+    padding-bottom: 1em;
+}
+
+footer .container div p {
+    color: #ffffff;
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+    letter-spacing: -1px;
+}
+
+footer .container div a {
+    text-decoration: none;
+    color: #ffffffc5;
+    padding-top: 0.4em;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.6em;
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
