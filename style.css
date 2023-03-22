@@ -36,7 +36,7 @@ header div p {
     line-height: 1.5;
 }
 
-main {
+main{
 }
 
 main div:last-child {
@@ -70,6 +70,21 @@ main div p {
     padding-top: 0.4em;
     font-family: 'Public Sans', sans-serif;
     font-size: 1.6em;
+    letter-spacing: -1px;
+    line-height: 1.5;
+}
+main div ol li{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.6em;
+    color: #264653;
+    letter-spacing: -1px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+main div ol p{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.6em;
+    color: #264653;
     letter-spacing: -1px;
     line-height: 1.5;
 }
