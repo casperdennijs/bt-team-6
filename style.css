@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -109,6 +110,14 @@ main div ol li{
     letter-spacing: -1px;
     line-height: 1.5;
     font-weight: bold;
+}
+
+main div ul li{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.4em;
+    color: #264653;
+    letter-spacing: -1px;
+    line-height: 1.5;
 }
 main div ol p{
     font-family: 'Public Sans', sans-serif;

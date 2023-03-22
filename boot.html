@@ -69,7 +69,20 @@
         </div>
         <div>
             <h1>5. Breedband internet</h1>
-            <p>De boot heeft een motor. Als de motor uitgezet wordt, is de boot nog steeds bruikbaar met peddels.</p>
+            <p>Tijdens het onderzoek heb ik gebruik gemaakt van de ingebouwde Network Throttling op de preset “Slow 3G”. Daarbij heb ik gekozen voor de website NOS.nl, omdat hier veel content ingeladen moet worden.</p>
+            <p>De NOS.nl website laad bij een lage internetsnelheid nog redelijk snel hun eerste content in. Zo krijg je vrij snel al een soort skeleton te zien en zie je teksten van nieuws artikelen. Wat wel vreemd is, is dat de teksten eerder getoond worden dan de titels wat soms een klein beetje verwarrend kan zijn omdat je dan context mist.</p>
+            <img src="./images/nos-network-throttling-v2.gif">
+            <p><strong>Verdere bevindingen die ik heb opgedaan tijdens het onderzoeken zijn als volgt:</strong></p>
+            <ul>
+                <li>Nieuws teksten gaan vrij snel en je krijgt ook meteen een indruk van de layout doordat er skeletons gemaakt zijn tijdens het laden</li>
+                <li>Teksten komen eerder dan de titels, dit kan soms een beetje ervoor zorgen dat je wat context mist als je de tekst meteen gaat lezen</li>
+                <li>Op mobiel werken het menu niet meteen, dit komt omdat de dropdowns gemaakt zijn met JavaScript. Dit zou ook in CSS gemaakt kunnen worden waarbij je geen JavaScript nodig hebt</li>
+                <li>Afbeeldingen worden geleidelijk geladen, je kan de progressie ervan heel goed zien. Het begint bovenaan met laden en vult zich langzaam naar beneden</li>
+                <li>De desktop versie lijkt nog iets sneller in te laden dan de mobiele versie. Je krijgt iets eerder content getoond.</li>
+                <li>Vroegtijdig het laden laten stoppen kan ervoor zorgen dat content zoals plaatjes helemaal niet ingeladen worden. Ook niet de delen die daarvoor wel al deels kon zien.</li>
+            </ul>
+            <p><strong>Wat voor impact kan dit hebben voor de gebruiker:</strong></p>
+            <p>Iedere persoon is natuurlijk anders en de één heeft meer geduld dan de andere. Het is dan dus heel belangrijk dat ondanks hun mindere omstandigheden niet te lang moeten hoeven wachten</p>
         </div>
         <div>
             <h1>6. Javascript</h1>
