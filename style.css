@@ -177,6 +177,10 @@ footer .container .bronnen section .bronnen-links a {
     line-height: 1.5;
 }
 
+.p-voor-ul {
+    margin-bottom: 0.4em;
+}
+
 .ocean { 
     height: 5%;
     width:100%;
